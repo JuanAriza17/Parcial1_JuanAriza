@@ -1,9 +1,46 @@
-img{
-    max-width: 20vh;
-    max-height: 20vh;
+nav {
+    height: 6em;
+}
+
+#head {
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
 }
 
 #carrito {
-    max-width: 5vh;
-    max-height: 5vh;
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
+}
+
+#divHead {
+    padding-left: 2em;
+}
+
+#divCarrito {
+    padding-right: 3em;
+}
+
+.container-fluid {
+    margin-top: 15px;
+}
+
+.card {
+    width: 18em;
+}
+
+p {
+    text-align: justify;
+}
+
+#confirmC{
+    background-color: #F0E6DD;
+    border-color: black;
+    color: black;
+}
+
+#cancelC{
+    background-color: #F08080;
+    border-color: gray;
+    color: black;
 }
