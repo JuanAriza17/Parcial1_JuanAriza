@@ -26,7 +26,12 @@ nav {
 }
 
 .card {
-    width: 18em;
+    width: 30em;
+}
+
+.col-3{
+    padding-top: 1em;
+    width: 30em;
 }
 
 p {

@@ -203,7 +203,7 @@ function loadCategoryData(data) {
   info.forEach(e => {
 
     let col = document.createElement("col");
-    col.className = "col col-offset-2";
+    col.className = "col-3 d-flex align-items-stretch";
 
     let div = document.createElement("div");
     div.className = "card";
