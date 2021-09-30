@@ -149,7 +149,7 @@ function updateOrderDetail() {
   let col1 = document.createElement("div");
   col1.className = "col-10";
   let totalAmount = document.createElement("h6");
-  totalAmount.innerHTML = "Total : "+total.toFixed(2);
+  totalAmount.innerHTML = "Total : $"+total.toFixed(2);
 
   let col2 = document.createElement("div");
   col2.className = "col d-flex justify-content-end align-items-center";
